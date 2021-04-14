@@ -1,0 +1,68 @@
+body{
+  background-color: #14ffec !important;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.conersiondiv{
+  font-family: 'Patrick Hand', cursive;
+  /* font-weight: bolder; */
+  background-color: #0d7377;
+  position: absolute;
+  width: 50%;
+  padding: 2%;
+  top: 4%;
+  left: 27%;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.conersiondiv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.5);
+}
+
+.countriesdiv{
+  /* font-family: 'Patrick Hand', cursive; */
+  font-weight: bolder;
+  background-color: #212121;
+  color: #0d7377;
+  position: absolute;
+  width: 50%;
+  top: 72%;
+  left: 27%;
+  padding: 1%;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.countriesdiv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.5);
+}
+
+option{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1, h4{
+  font-family: 'Patrick Hand', cursive;
+  font-weight:bolder;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.buttondiv{
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+}
+
+img{
+  font-family: 'Patrick Hand', cursive;
+  width: 6%;
+}
+
+.results{
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+}

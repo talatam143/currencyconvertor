@@ -1,0 +1,49 @@
+body{
+  background-color: #14ffec !important;
+}
+
+.conersiondiv{
+  background-color: #0d7377;
+  position: absolute;
+  width: 50%;
+  padding: 2%;
+  top: 7%;
+  left: 27%;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.conersiondiv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.5);
+}
+
+.countriesdiv{
+  background-color: #212121;
+  color: #0d7377;
+  position: absolute;
+  width: 50%;
+  top: 70%;
+  left: 27%;
+  padding: 1%;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.countriesdiv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.5);
+}
+
+h1, h4{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.buttondiv{
+  text-align: center;
+}
+
+img{
+  width: 6%;
+}
